@@ -38,7 +38,7 @@ def spring_motion(x_0, v_0, h, N):
 (x,v,t) = spring_motion(3,5,.01,10000)
 plt.plot(t,x)
 plt.xlabel("time")
-plt.ylabel("position")
+plt.ylabel("position of the spring")
 plt.savefig("position.pdf")
 plt.clf()
 
