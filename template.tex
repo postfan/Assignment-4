@@ -1,0 +1,50 @@
+% comments look like this, beginning with a percent sign
+
+
+\documentclass{article}
+
+\usepackage{graphicx} %for includegraphics
+
+\title{Template} %title
+
+\begin{document}
+
+\maketitle %put title in document
+
+Some text. This may or may not end up before the figure in the final document.
+
+
+%include figures like this
+\begin{figure}
+  % macro arguments go in the curly braces
+  % replace "4477th...jpg" with file name you want
+\includegraphics[width=\textwidth]{position.pdf}
+\end{figure}
+% end of figure bit
+
+%include figures like this
+\begin{figure}
+  % macro arguments go in the curly braces
+  % replace "4477th...jpg" with file name you want
+\includegraphics[width=\textwidth]{velocity.pdf}
+\end{figure}
+% end of figure bit
+
+%include figures like this
+\begin{figure}
+  % macro arguments go in the curly braces
+  % replace "4477th...jpg" with file name you want
+\includegraphics[width=\textwidth]{position_error.pdf}
+\end{figure}
+% end of figure bit
+
+%include figures like this
+\begin{figure}
+  % macro arguments go in the curly braces
+  % replace "4477th...jpg" with file name you want
+\includegraphics[width=\textwidth]{velocity_error.pdf}
+\end{figure}
+% end of figure bit
+
+
+\end{document}
